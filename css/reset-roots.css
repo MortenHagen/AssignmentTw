@@ -1,0 +1,33 @@
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+html {
+	font-size: 16px;
+	font-family: 'Inter', sans-serif;
+	color: black;
+}
+
+:root {
+
+	--font-size-small: 0.7rem;
+	--font-size-medium: 1.5rem;
+	--font-size-large: 2rem;
+
+	--font-leading-base: 0.5rem;
+	--font-leading-xsmall: 0.2rem;
+	--font-leading-small: 0.5rem;
+	--font-leading-medium: 0.5rem;
+	--font-leading-large: 0.5rem;
+
+	--background-gradient: linear-gradient(to top, #a7d2f7, #e0eefb);
+	--scale-color: #d6e0eb;
+	--faded-color: #01428878;
+	--primary-color: #014288;
+	--original-color: #015bab;
+	--secondary-color: #620084;
+	--box-border: 6px;
+}

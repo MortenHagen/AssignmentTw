@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documents</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset-roots.css">
+    <link rel="stylesheet" href="css/media-query.css">
+</head>
+<body>
+    <h2>Add a New Recipe</h2>
+    <form id="recipe-form">
+
+<!--Header/name-->
+        <label for="recipe-name">Recipe Name:</label>
+        <input type="text" id="recipe-name" name="recipe-name">
+
+        <br><br>
+
+<!--picture-->
+        <label for="picture">First link becomes the display picture</label>
+        <input type="text" id="picture" name="picture">
+        <button class="submitPicture">Add multiple picture links</button>
+
+        <br><br>
+
+<!--ingrediens-->     
+        <label for="ingredients">Ingredients:</label>
+        <input type="text" class="ingredients" name="ingredients">
+        <button class="ingredient-submit">Add Ingredient</button>
+
+        <br><br>
+
+<!--steps-->
+        <label for="steps">Steps:</label>
+        <input type="text" class="steps" name="steps">
+
+        <button class="steps-submit">Add Step</button>
+
+    </form>
+
+    <div id="recipes-container">
+        <h2 class="recipe-header"></h2>
+        <div class="steps-container"></div>
+        <div class="ingredients-container"></div>
+        <div class="picture-container"></div>
+    </div>
+
+    <!-- Display Results -->
+<div grid class="result-container">
+</div>
+
+    <script src="js/renderRecipe.js"></script>
+</body>
+</html>
